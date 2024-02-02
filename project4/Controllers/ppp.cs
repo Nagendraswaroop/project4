@@ -2,7 +2,7 @@
 
 namespace project4.Controllers
 {
-    public class Test : Controller
+    public class ppp : Controller
     {
         public IActionResult Index()
         {
