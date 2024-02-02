@@ -22,15 +22,16 @@ namespace project4
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
+          
             app.Run();
+
+
         }
     }
 }
